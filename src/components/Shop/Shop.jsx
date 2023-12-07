@@ -25,11 +25,11 @@ const Shop = () => {
             handleAddToCart={handleAddToCart}
 
             
-            ></Product>)} </div>
-            <div className='Cart-container'>
-                <h5>Order summary</h5>
-                <h5>Selected items: {cart.length}</h5>
-            </div>
+            ></Product>)}</div>
+            
+            < Cart cart={cart}></Cart>
+            
+            
             
         </div>
     );
